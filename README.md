@@ -58,15 +58,25 @@ The file is give in repository as “amazon_rainforest_100m_dataset.csv”
 2. Creation of Enhanced Dataset
 For urban expansion detection, a more focused dataset was developed, targeting regions with visible changes over a longer time period (2000-2020). The final dataset included 20 regions with substantial urban growth, including cities in the Middle East, Asia, and China.
 Image Collection is from Google Earth Engine.The link is as follow: https://code.earthengine.google.com/622038ae8bfb0f8823c49ddd43b0cf77
+
 Key Regions:
+
 •	Middle East & Asia: Dubai, KSA, Karachi, Lahore, Islamabad, etc.
+
 •	China: Zhenzhou, Tianjin
+
 •	Other Countries: South Korea, Netherlands, and UK regions
+
 Link : https://drive.google.com/drive/folders/1MGKrpQnyjnFdeySJlQTkTtXzDw5H5cVX?usp=drive_link
+
 Description:
+
 •	Folder A contains pre-change.
+
 •	Folder B contains post-change.
+
 •	Labels contains ground truth.
+
 •	List contains all the files names of validation, testing and training names.
 
 ________________________________________
@@ -79,19 +89,23 @@ Traditional machine learning models were applied to detect deforestation in the 
 2. Training with Transformers on Urban Expansion
 The enhanced dataset was used to train the BIT_CD and ScratchFormer models. The results improved significantly over previous attempts.
 •	BIT_CD Transformer:
+
 o	Achieved 75% accuracy after 200 epochs.
 o	Detected meaningful changes in urban areas over time.
 •	ScratchFormer:
+
 o	Achieved 66% accuracy after 60 epochs.
 o	Effectively captured subtle changes between images with a longer time frame.
 ________________________________________
 Conclusion
+
 This project successfully applied both traditional and transformer-based machine learning models for change detection in remote sensing images. The key insights are:
 •	Traditional Machine Learning Models: Performed well in detecting changes in the Amazon Rainforest, with Random Forest achieving the best results.
 •	Transformer Models: The BIT_CD and ScratchFormer models demonstrated superior performance in detecting urban expansion, leveraging the power of self-attention mechanisms for spatial-temporal analysis.
 
 
  BIT_CD: 
+ 
 Achieved an accuracy of 75% after 200 epochs us. 
 ![image](https://github.com/user-attachments/assets/fdba9373-5caa-4e20-842f-97435cba55fd)
 
