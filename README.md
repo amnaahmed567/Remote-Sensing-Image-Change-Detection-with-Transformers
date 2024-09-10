@@ -1,11 +1,15 @@
 Remote Sensing Image Change Detection with Transformers
 
 This repository contains the implementation of transformer-based models for detecting changes in remote sensing imagery. The project focuses on using advanced deep learning techniques, particularly transformer architectures, to analyze satellite images and identify land cover changes over time, with applications in environmental monitoring, urban expansion tracking, and deforestation detection.
+
 Contibutors
+
 •	Ayesha Siddiqa
 •	Navaal Iqbal 
 •	Amna Ahmed 
+
 Overview
+
 This project employs transformer-based architectures like BIT (Bi-temporal Image Transformer) and ScratchFormer to detect spatial and temporal changes in satellite images. The repository includes implementations, datasets, and evaluation results, particularly focused on the Amazon Rainforest and urban expansion regions.
 Requirements
 •	Python 3.x
