@@ -33,6 +33,7 @@ The primary objective of this project is to detect meaningful changes between pa
 The study involves two main phases:
 
 1.	Part I: Application of traditional machine learning models (Random Forest, XGBoost, Decision Trees, etc.) for detecting changes in the Amazon Rainforest.
+
 2.	Part II: Transition to transformer architectures, including the BIT_CD and ScratchFormer models, for advanced change detection, focusing on urban expansion.
 ________________________________________
 Overview of Transformer Architectures:
@@ -48,7 +49,9 @@ Architecture:
  ![image](https://github.com/user-attachments/assets/e2269922-4742-4446-8c5a-6ce187941716)
 
 •	A transformer-based architecture that processes two images from different times and detects changes using attention mechanisms.
+
 •	Optimized for multispectral remote sensing data and effective at detecting subtle changes in land cover.
+
 
 2. ScratchFormer:
    
@@ -59,7 +62,9 @@ Architecture:
  ![image](https://github.com/user-attachments/assets/9e1716f1-deee-45b6-aaad-ec2940b86e85)
 
 •	Follows the standard transformer design, with encoder layers utilizing self-attention for processing bitemporal images.
+
 •	A simpler yet highly adaptable model suited for detecting urban expansion and environmental changes.
+
 ________________________________________
 Dataset:
 
@@ -71,6 +76,7 @@ The file is give in repository as “amazon_rainforest_100m_dataset.csv”
 3. Creation of Enhanced Dataset:
 
 For urban expansion detection, a more focused dataset was developed, targeting regions with visible changes over a longer time period (2000-2020). The final dataset included 20 regions with substantial urban growth, including cities in the Middle East, Asia, and China.
+
 Image Collection is from Google Earth Engine.The link is as follow: https://code.earthengine.google.com/622038ae8bfb0f8823c49ddd43b0cf77
 
 Key Regions:
