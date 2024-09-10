@@ -122,7 +122,7 @@ o	Achieved 66% accuracy after 60 epochs.
 
 o	Effectively captured subtle changes between images with a longer time frame.
 ________________________________________
-Conclusion
+Conclusion:
 
 This project successfully applied both traditional and transformer-based machine learning models for change detection in remote sensing images. The key insights are:
 
@@ -144,9 +144,13 @@ Achieved an accuracy of 75% after 200 epochs us.
 •	The transition from Amazon Rainforest detection to urban expansion resulted in improved model accuracy due to the use of well-prepared datasets and extended timeframes for detecting significant changes.
 This project highlights the effectiveness of transformer models in detecting subtle yet impactful changes in satellite imagery, making them invaluable tools for environmental monitoring and urbanization studies.
 ________________________________________
-References
+References:
+
 https://github.com/justchenhao/BIT_CD
+
 https://github.com/mustansarfiaz/ScratchFormer
+
 https://paperswithcode.com/paper/efficient-transformer-based-method-for-remote
+
 https://ieeexplore.ieee.org/abstract/document/10489990
 
