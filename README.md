@@ -5,20 +5,31 @@ This repository contains the implementation of transformer-based models for dete
 Contibutors
 
 •	Ayesha Siddiqa
+
 •	Navaal Iqbal 
+
 •	Amna Ahmed 
+
 
 Overview
 
 This project employs transformer-based architectures like BIT (Bi-temporal Image Transformer) and ScratchFormer to detect spatial and temporal changes in satellite images. The repository includes implementations, datasets, and evaluation results, particularly focused on the Amazon Rainforest and urban expansion regions.
+
 Requirements
+
 •	Python 3.x
+
 •	TensorFlow / PyTorch
+
 •	Google Earth Engine
+
 •	Additional libraries: numpy, pandas, matplotlib, sklearn
+
 Introduction
+
 This project focuses on change detection in remote sensing imagery using transformer-based deep learning models. Remote sensing change detection plays a vital role in tracking environmental changes, such as deforestation, urban expansion, and disaster impact, using satellite images.
 The primary objective of this project is to detect meaningful changes between pairs of images taken at different time intervals using transformer models, which have shown immense potential in handling spatio-temporal dependencies in imagery.
+
 The study involves two main phases:
 1.	Part I: Application of traditional machine learning models (Random Forest, XGBoost, Decision Trees, etc.) for detecting changes in the Amazon Rainforest.
 2.	Part II: Transition to transformer architectures, including the BIT_CD and ScratchFormer models, for advanced change detection, focusing on urban expansion.
