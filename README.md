@@ -23,7 +23,7 @@ Requirements:
 
 •	Google Earth Engine
 
-•	Additional libraries: numpy, pandas, matplotlib, sklearn
+•	Additional libraries: numpy, pandas, matplotlib, sklearn, raster
 
 Introduction:
 
@@ -124,7 +124,9 @@ o	Effectively captured subtle changes between images with a longer time frame.
 ________________________________________
 Conclusion:
 
-This project successfully applied both traditional and transformer-based machine learning models for change detection in remote sensing images. The key insights are:
+This project successfully applied both traditional and transformer-based machine learning models for change detection in remote sensing images. 
+
+The key insights are:
 
 •	Traditional Machine Learning Models:
 
