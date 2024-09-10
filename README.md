@@ -1,4 +1,5 @@
 Remote Sensing Image Change Detection with Transformers
+
 This repository contains the implementation of transformer-based models for detecting changes in remote sensing imagery. The project focuses on using advanced deep learning techniques, particularly transformer architectures, to analyze satellite images and identify land cover changes over time, with applications in environmental monitoring, urban expansion tracking, and deforestation detection.
 Contibutors
 •	Ayesha Siddiqa
