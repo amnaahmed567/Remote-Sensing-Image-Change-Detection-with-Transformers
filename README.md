@@ -35,11 +35,11 @@ The study involves two main phases:
 1.	Part I: Application of traditional machine learning models (Random Forest, XGBoost, Decision Trees, etc.) for detecting changes in the Amazon Rainforest.
 2.	Part II: Transition to transformer architectures, including the BIT_CD and ScratchFormer models, for advanced change detection, focusing on urban expansion.
 ________________________________________
-Overview of Transformer Architectures
+Overview of Transformer Architectures:
 
 In Part II, we explored the use of transformer models for change detection, focusing on two architectures: BIT_CD (Bitemporal Image Transformer) and ScratchFormer. These models allow us to automatically generate change maps for detecting significant changes between satellite images over time.
 
-1. BIT_CD Transformer
+1. BIT_CD Transformer:
 
 The BIT_CD Transformer is designed to handle bitemporal images (images taken at different times) and focus on spatial-temporal changes.
 
@@ -50,7 +50,7 @@ Architecture:
 •	A transformer-based architecture that processes two images from different times and detects changes using attention mechanisms.
 •	Optimized for multispectral remote sensing data and effective at detecting subtle changes in land cover.
 
-2. ScratchFormer
+2. ScratchFormer:
    
 The ScratchFormer was developed from scratch for remote sensing tasks. Unlike models that rely on pre-trained networks, ScratchFormer learns directly from the input images and is simpler in design.
 
@@ -61,13 +61,14 @@ Architecture:
 •	Follows the standard transformer design, with encoder layers utilizing self-attention for processing bitemporal images.
 •	A simpler yet highly adaptable model suited for detecting urban expansion and environmental changes.
 ________________________________________
-Dataset
+Dataset:
 
-1. Data Collection and Preparation
+1. Data Collection and Preparation:
+
 For the Amazon Rainforest, satellite imagery was collected from Google Earth Engine (2015-2021). The dataset contained 21.6 million pixel entries, each labeled as either forest, vegetation, urban, or water bodies, with corresponding 5-band values for each pixel.
 The file is give in repository as “amazon_rainforest_100m_dataset.csv”
 
-3. Creation of Enhanced Dataset
+3. Creation of Enhanced Dataset:
 
 For urban expansion detection, a more focused dataset was developed, targeting regions with visible changes over a longer time period (2000-2020). The final dataset included 20 regions with substantial urban growth, including cities in the Middle East, Asia, and China.
 Image Collection is from Google Earth Engine.The link is as follow: https://code.earthengine.google.com/622038ae8bfb0f8823c49ddd43b0cf77
@@ -95,7 +96,7 @@ Description:
 ________________________________________
 Model Training and Results
 
-1. Training on Amazon Rainforest Data
+1. Training on Amazon Rainforest Data:
 
 Traditional machine learning models were applied to detect deforestation in the Amazon Rainforest. The results were as follows:
 
@@ -105,7 +106,7 @@ Traditional machine learning models were applied to detect deforestation in the 
 
 •	Smaller datasets of 20,000 entries yielded better accuracy (up to 87%) than larger datasets.
 
-3. Training with Transformers on Urban Expansion
+3. Training with Transformers on Urban Expansion:
 
 The enhanced dataset was used to train the BIT_CD and ScratchFormer models. The results improved significantly over previous attempts.
 
