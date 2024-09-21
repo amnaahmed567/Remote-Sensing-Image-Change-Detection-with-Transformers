@@ -73,7 +73,7 @@ Dataset:
 For the Amazon Rainforest, satellite imagery was collected from Google Earth Engine (2015-2021). The dataset contained 21.6 million pixel entries, each labeled as either forest, vegetation, urban, or water bodies, with corresponding 5-band values for each pixel.
 The file is give in repository as “amazon_rainforest_100m_dataset.csv”
 
-3. Creation of Enhanced Dataset:
+2. Creation of Enhanced Dataset:
 
 For urban expansion detection, a more focused dataset was developed, targeting regions with visible changes over a longer time period (2000-2020). The final dataset included 20 regions with substantial urban growth, including cities in the Middle East, Asia, and China.
 
@@ -112,7 +112,7 @@ Traditional machine learning models were applied to detect deforestation in the 
 
 •	Smaller datasets of 20,000 entries yielded better accuracy (up to 87%) than larger datasets.
 
-3. Training with Transformers on Urban Expansion:
+2. Training with Transformers on Urban Expansion:
 
 The enhanced dataset was used to train the BIT_CD and ScratchFormer models. The results improved significantly over previous attempts.
 
